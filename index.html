@@ -5,6 +5,16 @@
         <link rel="stylesheet" type="text/css" href="css.css">
     </head>
     <body>
+
+      <div class="loading">
+        <div class="Box">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
         <ul>
             <li><a href="#about">About</a></li>
             
@@ -117,5 +127,12 @@
                 <a href="https://github.com/Mahadi-Ahammed" target="_blank" rel="noopener noreferrer"><button class="bn">Github</button></a>                
               </footer>
               
+              <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script>
+         $(window).on("load",function(){
+     $(".loading").fadeOut("slow");
+});
+        </script>
+
     </body>
 </html>
